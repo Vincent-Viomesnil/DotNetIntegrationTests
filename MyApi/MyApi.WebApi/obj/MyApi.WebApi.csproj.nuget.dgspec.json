@@ -1,32 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Github\\DotNetIntegrationTests\\src\\MyApi\\MyApi.WebApi\\MyApi.WebApi.csproj": {}
+    "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\MyApi.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Github\\DotNetIntegrationTests\\src\\MyApi\\MyApi.WebApi\\MyApi.WebApi.csproj": {
+    "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\MyApi.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Github\\DotNetIntegrationTests\\src\\MyApi\\MyApi.WebApi\\MyApi.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\MyApi.WebApi.csproj",
         "projectName": "MyApi.WebApi",
-        "projectPath": "C:\\Dev\\Github\\DotNetIntegrationTests\\src\\MyApi\\MyApi.WebApi\\MyApi.WebApi.csproj",
-        "packagesPath": "C:\\Users\\A438QK\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Github\\DotNetIntegrationTests\\src\\MyApi\\MyApi.WebApi\\obj\\",
+        "projectPath": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\MyApi.WebApi.csproj",
+        "packagesPath": "C:\\Users\\A891PB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\A438QK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A891PB\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://afa-nrepo-nuget.azure-paas.intraxa/repository/group/index.json": {}
+          "https://afa-nrepo-nuget.azure-paas.intraxa/repository/group/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -49,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -73,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

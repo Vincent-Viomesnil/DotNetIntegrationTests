@@ -1,10 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Dev\\Github\\DotNetIntegrationTests\\src\\MyApi\\",
+  "WorkspaceRootPath": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3A00389-7DC9-4638-83CE-81F615D67125}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|c:\\dev\\github\\dotnetintegrationtests\\src\\myapi\\myapi.webapi.tests\\features\\calculatorsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3A00389-7DC9-4638-83CE-81F615D67125}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|solutionrelative:myapi.webapi.tests\\features\\calculatorsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi\\myapi.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|solutionrelative:myapi.webapi\\myapi.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|solutionrelative:myapi.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi\\weathercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|solutionrelative:myapi.webapi\\weathercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi\\dbweatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|solutionrelative:myapi.webapi\\dbweatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|solutionrelative:myapi.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1E3196-6F91-4BDA-B255-7BA72073FD48}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi.tests\\hooks\\initwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB1E3196-6F91-4BDA-B255-7BA72073FD48}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|solutionrelative:myapi.webapi.tests\\hooks\\initwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|solutionrelative:myapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C9D80E-3543-4321-BCC9-AAE045F3AD7E}|MyApi.WebApi\\MyApi.WebApi.csproj|solutionrelative:myapi.webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1E3196-6F91-4BDA-B255-7BA72073FD48}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi.tests\\features\\calculator.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DB1E3196-6F91-4BDA-B255-7BA72073FD48}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|solutionrelative:myapi.webapi.tests\\features\\calculator.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1E3196-6F91-4BDA-B255-7BA72073FD48}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi.tests\\features\\weatherwebapi.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DB1E3196-6F91-4BDA-B255-7BA72073FD48}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|solutionrelative:myapi.webapi.tests\\features\\weatherwebapi.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1E3196-6F91-4BDA-B255-7BA72073FD48}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi.tests\\features\\weatherwebapisteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB1E3196-6F91-4BDA-B255-7BA72073FD48}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|solutionrelative:myapi.webapi.tests\\features\\weatherwebapisteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1E3196-6F91-4BDA-B255-7BA72073FD48}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|c:\\users\\a891pb\\source\\repos\\dotnetintegrationtests\\myapi\\myapi.webapi.tests\\features\\calculatorsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB1E3196-6F91-4BDA-B255-7BA72073FD48}|MyApi.WebApi.Tests\\MyApi.WebApi.Tests.csproj|solutionrelative:myapi.webapi.tests\\features\\calculatorsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\Github\\DotNetIntegrationTests\\src\\MyApi\\MyApi.WebApi.Tests\\Features\\CalculatorSteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +61,250 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 23,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InitWebApplicationFactory.cs",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi.Tests\\Hooks\\InitWebApplicationFactory.cs",
+              "RelativeDocumentMoniker": "MyApi.WebApi.Tests\\Hooks\\InitWebApplicationFactory.cs",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi.Tests\\Hooks\\InitWebApplicationFactory.cs",
+              "RelativeToolTip": "MyApi.WebApi.Tests\\Hooks\\InitWebApplicationFactory.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAqwEcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T10:09:50.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "MyApi.WebApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "MyApi.WebApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T10:00:28.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbWeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\DbWeatherForecast.cs",
+              "RelativeDocumentMoniker": "MyApi.WebApi\\DbWeatherForecast.cs",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\DbWeatherForecast.cs",
+              "RelativeToolTip": "MyApi.WebApi\\DbWeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:55:30.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherContext.cs",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\WeatherContext.cs",
+              "RelativeDocumentMoniker": "MyApi.WebApi\\WeatherContext.cs",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\WeatherContext.cs",
+              "RelativeToolTip": "MyApi.WebApi\\WeatherContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:54:51.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "MyApi.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\appsettings.json",
+              "RelativeToolTip": "MyApi.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-10T09:52:31.702Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MyApi.WebApi.http",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\MyApi.WebApi.http",
+              "RelativeDocumentMoniker": "MyApi.WebApi\\MyApi.WebApi.http",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\MyApi.WebApi.http",
+              "RelativeToolTip": "MyApi.WebApi\\MyApi.WebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-10-10T09:26:39.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "MyApi.WebApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\WeatherForecast.cs",
+              "RelativeToolTip": "MyApi.WebApi\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:26:37.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "MyApi.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi\\Program.cs",
+              "RelativeToolTip": "MyApi.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:02:34.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Calculator.feature",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi.Tests\\Features\\Calculator.feature",
+              "RelativeDocumentMoniker": "MyApi.WebApi.Tests\\Features\\Calculator.feature",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi.Tests\\Features\\Calculator.feature",
+              "RelativeToolTip": "MyApi.WebApi.Tests\\Features\\Calculator.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-10T08:52:25.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherWebApi.feature",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi.Tests\\Features\\WeatherWebApi.feature",
+              "RelativeDocumentMoniker": "MyApi.WebApi.Tests\\Features\\WeatherWebApi.feature",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi.Tests\\Features\\WeatherWebApi.feature",
+              "RelativeToolTip": "MyApi.WebApi.Tests\\Features\\WeatherWebApi.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-10T09:15:11.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherWebApiSteps.cs",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi.Tests\\Features\\WeatherWebApiSteps.cs",
+              "RelativeDocumentMoniker": "MyApi.WebApi.Tests\\Features\\WeatherWebApiSteps.cs",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi.Tests\\Features\\WeatherWebApiSteps.cs",
+              "RelativeToolTip": "MyApi.WebApi.Tests\\Features\\WeatherWebApiSteps.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:15:21.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CalculatorSteps.cs",
+              "DocumentMoniker": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi.Tests\\Features\\CalculatorSteps.cs",
+              "RelativeDocumentMoniker": "MyApi.WebApi.Tests\\Features\\CalculatorSteps.cs",
+              "ToolTip": "C:\\Users\\A891PB\\Source\\Repos\\DotNetIntegrationTests\\MyApi\\MyApi.WebApi.Tests\\Features\\CalculatorSteps.cs",
+              "RelativeToolTip": "MyApi.WebApi.Tests\\Features\\CalculatorSteps.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:55:10.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CalculatorSteps.cs",
               "DocumentMoniker": "C:\\Dev\\Github\\DotNetIntegrationTests\\src\\MyApi\\MyApi.WebApi.Tests\\Features\\CalculatorSteps.cs",
-              "RelativeDocumentMoniker": "MyApi.WebApi.Tests\\Features\\CalculatorSteps.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Dev\\Github\\DotNetIntegrationTests\\src\\MyApi\\MyApi.WebApi.Tests\\Features\\CalculatorSteps.cs",
               "ToolTip": "C:\\Dev\\Github\\DotNetIntegrationTests\\src\\MyApi\\MyApi.WebApi.Tests\\Features\\CalculatorSteps.cs",
-              "RelativeToolTip": "MyApi.WebApi.Tests\\Features\\CalculatorSteps.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAUwB8AAAAAAAAA",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Dev\\Github\\DotNetIntegrationTests\\src\\MyApi\\MyApi.WebApi.Tests\\Features\\CalculatorSteps.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T11:54:52.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T11:54:52.61Z"
             }
           ]
         }

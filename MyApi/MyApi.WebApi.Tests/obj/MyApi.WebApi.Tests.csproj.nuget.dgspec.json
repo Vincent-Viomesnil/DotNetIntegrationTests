@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[17.8.0, )"
             },
+            "Respawn": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
             "SpecFlow.xUnit": {
               "target": "Package",
               "version": "[3.9.74, )"

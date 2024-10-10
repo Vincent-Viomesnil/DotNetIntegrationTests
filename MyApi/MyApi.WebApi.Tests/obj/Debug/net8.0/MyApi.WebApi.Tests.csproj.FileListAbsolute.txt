@@ -491,3 +491,4 @@ C:\Users\A891PB\Source\Repos\DotNetIntegrationTests\MyApi\MyApi.WebApi.Tests\bin
 C:\Users\A891PB\Source\Repos\DotNetIntegrationTests\MyApi\MyApi.WebApi.Tests\bin\Debug\net8.0\MyApi.WebApi.dll
 C:\Users\A891PB\Source\Repos\DotNetIntegrationTests\MyApi\MyApi.WebApi.Tests\bin\Debug\net8.0\MyApi.WebApi.pdb
 C:\Users\A891PB\Source\Repos\DotNetIntegrationTests\MyApi\MyApi.WebApi.Tests\obj\Debug\net8.0\MvcTestingAppManifest.json
+C:\Users\A891PB\Source\Repos\DotNetIntegrationTests\MyApi\MyApi.WebApi.Tests\bin\Debug\net8.0\Respawn.dll

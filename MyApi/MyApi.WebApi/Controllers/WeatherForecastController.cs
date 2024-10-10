@@ -25,4 +25,24 @@ public class WeatherForecastController : ControllerBase
             Summary = dbWeather.Summary
         });
     }
+
+
+    [HttpGet]
+    [Route("{date}")]
+    public WeatherForecast? Get(DateOnly date)
+    {
+        var dbWeather = _weatherContext.WeatherForecasts.FirstOrDefault(w => w.Date == date);
+
+        if (dbWeather == null)
+        {
+            return null;
+        }
+
+        return new WeatherForecast
+        {
+            Date = dbWeather.Date,
+            TemperatureC = dbWeather.TemperatureC,
+            Summary = dbWeather.Summary
+        };
+    }
 }

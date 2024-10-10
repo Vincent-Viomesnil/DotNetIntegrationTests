@@ -1531,6 +1531,18 @@
           "lib/netstandard2.0/NuGet.Frameworks.dll": {}
         }
       },
+      "Respawn/6.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "4.0.5"
+        },
+        "compile": {
+          "lib/netstandard2.1/Respawn.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Respawn.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
         "type": "package",
         "runtimeTargets": {
@@ -5578,6 +5590,19 @@
         "lib/netstandard2.0/NuGet.Frameworks.dll",
         "nuget.frameworks.6.5.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
+      ]
+    },
+    "Respawn/6.2.1": {
+      "sha512": "b8v9a1+08FKiDtqi6KllaJEeJiB1cmkD3kmOXDNIR+U85gEaZitwl6Gxq6RU5NL34OLmdQ5dB+QE0rhVCX+lEA==",
+      "type": "package",
+      "path": "respawn/6.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Respawn.dll",
+        "logo.png",
+        "respawn.6.2.1.nupkg.sha512",
+        "respawn.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -9952,6 +9977,7 @@
       "Microsoft.Data.SqlClient >= 5.2.2",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "MyApi.WebApi >= 1.0.0",
+      "Respawn >= 6.2.1",
       "SpecFlow.xUnit >= 3.9.74",
       "Testcontainers.MsSql >= 3.10.0",
       "coverlet.collector >= 6.0.0",
@@ -10019,6 +10045,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.8.0, )"
+          },
+          "Respawn": {
+            "target": "Package",
+            "version": "[6.2.1, )"
           },
           "SpecFlow.xUnit": {
             "target": "Package",

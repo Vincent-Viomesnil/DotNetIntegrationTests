@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.Testing;
+﻿using BoDi;
+using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -7,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
+using Respawn;
 using TechTalk.SpecFlow;
 using Testcontainers.MsSql;
 
@@ -21,15 +23,22 @@ internal class InitWebApplicationFactory
     private MsSqlContainer _msSqlContainer = null!;
 
     [BeforeScenario]
-    public async Task BeforeScenario(ScenarioContext scenarioContext)
+    public async Task BeforeScenario(ScenarioContext scenarioContext, IObjectContainer objectContainer)
     {
+
+        await InitializeMsSqlContainerAsync();
+
+        await PopulateDatabaseAsync();
+
+        await InitializeRespawnAsync();
+
         var application = new WebApplicationFactory<Program>()
         .WithWebHostBuilder(builder =>
         {
             builder.ConfigureTestServices(services =>
             {
                 ReplaceLogging(services);
-                ReplaceDatabase(services);
+                ReplaceDatabase(services, objectContainer);
             });
         });
 
@@ -37,11 +46,8 @@ internal class InitWebApplicationFactory
 
         scenarioContext.TryAdd(HttpClientKey, client);
         scenarioContext.TryAdd(ApplicationKey, application);
-
-        _msSqlContainer = new MsSqlBuilder().Build();
-
-        await _msSqlContainer.StartAsync();
-        await PopulateDatabaseAsync();
+ 
+ 
     }
 
     [AfterScenario]
@@ -60,8 +66,27 @@ internal class InitWebApplicationFactory
         await _msSqlContainer.DisposeAsync().AsTask();
     }
 
-    
+    private async Task InitializeMsSqlContainerAsync()
+    {
+        _msSqlContainer = new MsSqlBuilder().Build();
 
+        await _msSqlContainer.StartAsync();
+    }
+
+
+
+    private async Task InitializeRespawnAsync()
+    {
+        var respawner = await Respawner.CreateAsync(
+            _msSqlContainer.GetConnectionString(),
+            new()
+            {
+                DbAdapter = DbAdapter.SqlServer
+
+            });
+
+        await respawner.ResetAsync(_msSqlContainer.GetConnectionString());
+    }
     private static void ReplaceLogging(IServiceCollection services)
     {
         services.RemoveAll(typeof(ILogger<>));
@@ -69,7 +94,7 @@ internal class InitWebApplicationFactory
         services.AddSingleton(typeof(ILogger<>), typeof(NullLogger<>));
     }
 
-    private void ReplaceDatabase(IServiceCollection services)
+    private void ReplaceDatabase(IServiceCollection services, IObjectContainer objectContainer)
     {
         services.RemoveAll<DbContextOptions<WeatherContext>>();
         services.RemoveAll<WeatherContext>();
@@ -79,6 +104,12 @@ internal class InitWebApplicationFactory
             {
                 providerOptions.EnableRetryOnFailure();
             }));
+
+        var database = new WeatherContext(new DbContextOptionsBuilder<WeatherContext>()
+            .UseSqlServer(_msSqlContainer.GetConnectionString())
+            .Options);
+
+        objectContainer.RegisterInstanceAs(database);
     }
 
     private async Task PopulateDatabaseAsync()
@@ -95,14 +126,6 @@ internal class InitWebApplicationFactory
                 [TemperatureC] INT NOT NULL,
                 [Summary] NVARCHAR(2000) NULL
             );
-
-            INSERT INTO [dbo].[WeatherForecast] ([Date], [TemperatureC], [Summary])
-            VALUES
-                ('2022-01-01T00:00:00Z', 25, 'Hot'),
-                ('2022-01-02T00:00:00Z', 20, 'Warm'),
-                ('2022-01-03T00:00:00Z', 15, 'Cool'),
-                ('2022-01-04T00:00:00Z', 10, 'Cold'),
-                ('2022-01-05T00:00:00Z', 5, 'Freezing');
         "
         };
 

@@ -75,6 +75,31 @@ namespace MyApi.WebApi.Tests.Features
             testRunner.CollectScenarioErrors();
         }
         
+        public virtual void FeatureBackground()
+        {
+#line 5
+#line hidden
+            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Date",
+                        "Summary",
+                        "TemperatureC"});
+            table1.AddRow(new string[] {
+                        "2023-01-01",
+                        "Freezing",
+                        "-7"});
+            table1.AddRow(new string[] {
+                        "2023-01-02",
+                        "Bracing",
+                        "2"});
+            table1.AddRow(new string[] {
+                        "2023-05-03",
+                        "Chilly",
+                        "17"});
+#line 6
+ testRunner.Given("the existing forecast are", ((string)(null)), table1, "Given ");
+#line hidden
+        }
+        
         void System.IDisposable.Dispose()
         {
             this.TestTearDown();
@@ -88,7 +113,7 @@ namespace MyApi.WebApi.Tests.Features
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get weather forecasts", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 5
+#line 12
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -98,11 +123,87 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 6
+#line 5
+this.FeatureBackground();
+#line hidden
+#line 13
  testRunner.When("I make a GET request to \'weatherforecast\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 7
+#line 14
  testRunner.Then("the response status code is \'200\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.SkippableFactAttribute(DisplayName="Get weather forecast for one date with no forecast")]
+        [Xunit.TraitAttribute("FeatureTitle", "WeatherWebApi")]
+        [Xunit.TraitAttribute("Description", "Get weather forecast for one date with no forecast")]
+        public void GetWeatherForecastForOneDateWithNoForecast()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get weather forecast for one date with no forecast", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 16
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 5
+this.FeatureBackground();
+#line hidden
+#line 17
+ testRunner.When("I make a GET request to \'weatherforecast/2020-01-01\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 18
+ testRunner.Then("the response status code is \'204\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.SkippableFactAttribute(DisplayName="Get weather forecast for one date with existing forecast")]
+        [Xunit.TraitAttribute("FeatureTitle", "WeatherWebApi")]
+        [Xunit.TraitAttribute("Description", "Get weather forecast for one date with existing forecast")]
+        public void GetWeatherForecastForOneDateWithExistingForecast()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get weather forecast for one date with existing forecast", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 20
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 5
+this.FeatureBackground();
+#line hidden
+#line 21
+ testRunner.When("I make a GET request to \'weatherforecast/2023-01-02\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 22
+ testRunner.Then("the response status code is \'200\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                            "Date",
+                            "TemperatureC",
+                            "Summary"});
+                table2.AddRow(new string[] {
+                            "2023-01-02",
+                            "2",
+                            "Bracing"});
+#line 23
+ testRunner.And("the response is", ((string)(null)), table2, "And ");
 #line hidden
             }
             this.ScenarioCleanup();

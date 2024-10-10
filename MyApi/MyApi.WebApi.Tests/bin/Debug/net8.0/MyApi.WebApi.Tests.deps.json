@@ -40,6 +40,7 @@
           "Microsoft.Data.SqlClient": "5.2.2",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "MyApi.WebApi": "1.0.0",
+          "Respawn": "6.2.1",
           "SpecFlow.xUnit": "3.9.74",
           "Testcontainers.MsSql": "3.10.0",
           "coverlet.collector": "6.0.0",
@@ -1471,6 +1472,20 @@
         },
         "compile": {
           "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+        }
+      },
+      "Respawn/6.2.1": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.2.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Respawn.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Respawn.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
@@ -4739,6 +4754,13 @@
       "sha512": "sha512-QWINE2x3MbTODsWT1Gh71GaGb5icBz4chS8VYvTgsBnsi8esgN6wtHhydd7fvToWECYGq7T4cgBBDiKD/363fg==",
       "path": "nuget.frameworks/6.5.0",
       "hashPath": "nuget.frameworks.6.5.0.nupkg.sha512"
+    },
+    "Respawn/6.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b8v9a1+08FKiDtqi6KllaJEeJiB1cmkD3kmOXDNIR+U85gEaZitwl6Gxq6RU5NL34OLmdQ5dB+QE0rhVCX+lEA==",
+      "path": "respawn/6.2.1",
+      "hashPath": "respawn.6.2.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",
